@@ -10,19 +10,18 @@ pokemon_dict = {
         'exp_group': "Medium Slow",
         'evolves': {'level': 16, 'into': 'Ivysaur'},
         'base_stats': {"HP": 45, "Attack": 49, "Defense": 49, "Speed": 45, "Special": 65},
-        'critical_hit_chance': "8.6%",
+        'critical_hit_chance': 8.6,
         'pokedex_entries': ["Red/Blue: A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.",
                         "Yellow: It can go for days without eating a single morsel. In the bulb on its back, it stores energy."],
         'level_up_learnset': {
-            1: "Tackle",
-            1: "Growl",
-            7: "Leech Seed",
-            13: "Vine Whip",
-            20: "PoisonPowder",
-            27: "Razor Leaf",
-            34: "Growth",
-            41: "Sleep Powder",
-            48: "SolarBeam"
+            1: ["Tackle","Growl"],
+            7: ["Leech Seed"],
+            13: ["Vine Whip"],
+            20: ["PoisonPowder"],
+            27: ["Razor Leaf"],
+            34: ["Growth"],
+            41: ["Sleep Powder"],
+            48: ["SolarBeam"]
         },
         'tm_hm_learnset': {
             "TM03": "Swords Dance",
@@ -52,7 +51,7 @@ pokemon_dict = {
         'exp_group': "Medium Slow", 
         'evolves': {'level': 32, 'into': 'Venusaur'},
         'base_stats': {"HP": 60, "Attack": 62, "Defense": 63, "Speed": 60, "Special": 80},
-        'critical_hit_chance': "11.7%", 
+        'critical_hit_chance': 11.7, 
         'pokedex_entries': ["Red/Blue: When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
                             "Yellow: The bulb on its back grows by drawing energy. It gives off an aroma when it is ready to bloom."],
         'level_up_learnset': {
@@ -90,7 +89,7 @@ pokemon_dict = {
         'base_exp': 208,
         'exp_group': "Medium Slow",
         'base_stats': {"HP": 80, "Attack": 82, "Defense": 83, "Speed": 80, "Special": 100},
-        'critical_hit_chance': "15.6%",
+        'critical_hit_chance': 15.6,
         'pokedex_entries': ["Red/Blue: The plant blooms when it is absorbing solar rays. It stays on the move to line up its bud with the sun's rays.",
         "Yellow: By absorbing solar rays during the day and metabolizing nutrients at night, its large petals grow."],
         'level_up_learnset': {
@@ -129,7 +128,7 @@ pokemon_dict = {
         'exp_group': "Medium Slow", 
         'evolves': {'level': 16, 'into': 'Charmeleon'},
         'base_stats': {"HP": 39, "Attack": 52, "Defense": 43, "Speed": 65, "Special": 60},
-        'critical_hit_chance': "8.6%", 
+        'critical_hit_chance': 8.6, 
         'pokedex_entries': ["Red/Blue: Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.",
                             "Yellow: The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely."],
         'level_up_learnset': {
@@ -169,7 +168,7 @@ pokemon_dict = {
         'exp_group': "Medium Slow",
         'evolves': {'level': 36, 'into': 'Charizard'},
         'base_stats': {"HP": 58, "Attack": 64, "Defense": 58, "Speed": 80, "Special": 80},
-        'critical_hit_chance': "8.6%", 
+        'critical_hit_chance': 8.6, 
         'pokedex_entries': ["Red/Blue: When it swings its burning tail, it elevates the surrounding temperature to unbearably high levels.",
                             "Yellow: A brutal Pokemon rendered merciless by its dashing speed. Befriending it puts your life at stake."],
         'level_up_learnset': {
@@ -209,7 +208,7 @@ pokemon_dict = {
         'base_exp': 240,
         'exp_group': "Medium Slow",
         'base_stats': {"HP": 78, "Attack": 84, "Defense": 78, "Speed": 100, "Special": 109},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.", 
                             "Yellow: A Charizard flies about in search of strong opponents. It breathes intense flames that can melt any material."],
         'level_up_learnset': {
@@ -251,7 +250,7 @@ pokemon_dict = {
         'exp_group': "Medium Slow",
         'evolves': {'level': 16, 'into': 'Wartortle'},
         'base_stats': {"HP": 44, "Attack": 48, "Defense": 65, "Speed": 43, "Special": 50},
-        'critical_hit_chance': "8.6%",
+        'critical_hit_chance': 8.6,
         'pokedex_entries': ["Red/Blue: After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.",
                             "Yellow: Its shell is not just for protection. Its rounded shape helps it bounce along at a jaunty gait."],
         'level_up_learnset': {
@@ -290,7 +289,7 @@ pokemon_dict = {
         'exp_group': "Medium Slow",
         'evolves': {'level': 36, 'into': 'Blastoise'},
         'base_stats': {"HP": 59, "Attack": 63, "Defense": 80, "Speed": 58, "Special": 65},
-        'critical_hit_chance': "8.6%",
+        'critical_hit_chance': 8.6,
         'pokedex_entries': ["Red/Blue: Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.",
                             "Yellow: It is adept at attacking from the water. It swims with its ears spread to maintain balance."],
         'level_up_learnset': {
@@ -328,7 +327,7 @@ pokemon_dict = {
         'base_exp': 239,
         'exp_group': "Medium Slow",
         'base_stats': {"HP": 79, "Attack": 83, "Defense": 100, "Speed": 78, "Special": 85},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: A brutal Pokemon with blistering offensive powers. The jets of water it spouts from the jet chambers on its shell can punch through thick steel.",
                             "Yellow: Once it bathes in extremely hot gases from volcanic areas, its body makes the water in its shell into a powerful stream."],
         'level_up_learnset': {
@@ -367,7 +366,7 @@ pokemon_dict = {
         'exp_group': "Medium Fast",
         'evolves': {'level': 7, 'into': 'Metapod'},
         'base_stats': {"HP": 45, "Attack": 30, "Defense": 35, "Speed": 45, "Special": 20},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
                             "Yellow: If you touch the feeler on top of its head, it will release a horrible stink to protect itself."],
         'level_up_learnset': {
@@ -385,7 +384,7 @@ pokemon_dict = {
         'exp_group': "Medium Fast",
         'evolves': {'level': 10, 'into': 'Butterfree'},
         'base_stats': {"HP": 50, "Attack": 20, "Defense": 55, "Speed": 30, "Special": 25},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.",
                             "Yellow: This is its pre-evolved form. At this stage, it can only harden, so it remains motionless to avoid attack."],
         'level_up_learnset': {
@@ -402,7 +401,7 @@ pokemon_dict = {
         'base_exp': 160,
         'exp_group': "Medium Fast",
         'base_stats': {"HP": 60, "Attack": 45, "Defense": 50, "Speed": 70, "Special": 80},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
                             "Yellow: Its wings, covered with poisonous powders, repel water. This allows it to fly in the rain."],
         'level_up_learnset': {
@@ -456,7 +455,7 @@ pokemon_dict = {
         'exp_group': "Medium Fast",
         'evolves': {'level': 7, 'into': 'Kakuna'},
         'base_stats': {"HP": 40, "Attack": 35, "Defense": 30, "Speed": 50, "Special": 20},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: Often found in forests, eating leaves. It has a sharp venomous stinger on its head.",
                             "Yellow: Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head."],
         'level_up_learnset': {
@@ -474,7 +473,7 @@ pokemon_dict = {
         'exp_group': "Medium Fast",
         'evolves': {'level': 10, 'into': 'Beedrill'},
         'base_stats': {"HP": 45, "Attack": 25, "Defense": 50, "Speed": 35, "Special": 25},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators.",
                             "Yellow: Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy."],
         'level_up_learnset': {
@@ -491,7 +490,7 @@ pokemon_dict = {
         'base_exp': 159,
         'exp_group': "Medium Fast",
         'base_stats': {"HP": 65, "Attack": 80, "Defense": 40, "Speed": 75, "Special": 45},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.",
                             "Yellow: It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms."],
         'level_up_learnset': {
@@ -531,7 +530,7 @@ pokemon_dict = {
         'exp_group': "Medium Slow",
         'evolves': {'level': 18, 'into': 'Pidgeotto'},
         'base_stats': {"HP": 40, "Attack": 45, "Defense": 40, "Speed": 56, "Special": 35},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
                             "Yellow: Very docile. If attacked, it will often kick up sand to protect itself rather than fight back."],
         'level_up_learnset': {
@@ -549,7 +548,7 @@ pokemon_dict = {
         'exp_group': "Medium Slow",
         'evolves': {'level': 36, 'into': 'Pidgeot'},
         'base_stats': {"HP": 63, "Attack": 60, "Defense": 55, "Speed": 71, "Special": 50},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: Very protective of its sprawling territorial area, this POKéMON will fiercely peck at any intruder.",
                             "Yellow: This POKéMON is full of vitality. It constantly flies around its large territory in search of prey."],
         'level_up_learnset': {
@@ -572,7 +571,7 @@ pokemon_dict = {
         'exp_group': "Medium Fast",
         'evolves': {'level': 20, 'into': 'Raticate'},
         'base_stats': {"HP": 30, "Attack": 56, "Defense": 35, "Speed": 72, "Special": 25},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
                             "Yellow: Will chew on anything with its fangs. If you see one, it is certain that 40 more live in the area."],
         'level_up_learnset': {
@@ -594,7 +593,7 @@ pokemon_dict = {
         'base_exp': 116,
         'exp_group': "Medium Fast",
         'base_stats': {"HP": 55, "Attack": 81, "Defense": 60, "Speed": 97, "Special": 50},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: It uses its whiskers to maintain its balance. It seems to slow down if they are cut off.",
                             "Yellow: It whittles its constantly growing fangs by gnawing on hard things. It can chew apart cinder walls."],
         'level_up_learnset': {
@@ -617,7 +616,7 @@ pokemon_dict = {
         'exp_group': "Medium Fast",
         'evolves': {'level': 20, 'into': 'Fearow'},
         'base_stats': {"HP": 40, "Attack": 60, "Defense": 30, "Speed": 70, "Special": 31},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
                             "Yellow: Inept at flying high. However, it can fly around very fast to protect its territory."],
         'level_up_learnset': {
@@ -634,7 +633,7 @@ pokemon_dict = {
         'base_exp': 162,
         'exp_group': "Medium Fast",
         'base_stats': {"HP": 65, "Attack": 90, "Defense": 65, "Speed": 100, "Special": 61},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: With its huge and magnificent wings, it can keep aloft without ever having to land for rest.",
                             "Yellow: A Pokémon that dates back many years. If it senses danger, it flies high and away, instantly."],
         'level_up_learnset': {
@@ -659,7 +658,7 @@ pokemon_dict = {
         'exp_group': "Medium Fast",
         'evolves': {'level': 22, 'into': 'Arbok'},
         'base_stats': {"HP": 35, "Attack": 60, "Defense": 44, "Speed": 55, "Special": 40},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: Moves silently and stealthily. Eats the eggs of birds, such as PIDGEY and SPEAROW, whole.",
                             "Yellow: The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest."],
         'level_up_learnset': {
@@ -676,7 +675,7 @@ pokemon_dict = {
         'base_exp': 147,
         'exp_group': "Medium Fast",
         'base_stats': {"HP": 60, "Attack": 85, "Defense": 69, "Speed": 80, "Special": 65},
-        'critical_hit_chance': "4.8%",
+        'critical_hit_chance': 4.8,
         'pokedex_entries': ["Red/Blue: The frightening patterns on its belly have been studied. Six variations have been confirmed.",
                             "Yellow: With a very vengeful nature, it won't give up the chase, no matter how far, once it targets its prey."],
         'level_up_learnset': {
@@ -700,7 +699,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'method': "Use Thunder Stone", 'into': "Raichu"},
     'base_stats': {"HP": 35, "Attack": 55, "Defense": 30, "Speed": 90, "Special": 50},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: It occasionally uses an electric shock to recharge a fellow PIKACHU that is in a weakened state.",
                         "Yellow: When several of these POKéMON gather, their electricity could build and cause lightning storms."],
     'level_up_learnset': {
@@ -738,7 +737,7 @@ pokemon_dict = {
     'base_exp': 218,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 60, "Attack": 90, "Defense": 55, "Speed": 100, "Special": 90},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Its long tail serves as a ground to protect itself from its own high-voltage power.",
                         "Yellow: When electricity builds up inside its body, it becomes feisty. It also glows in the dark."],
     'level_up_learnset': {
@@ -771,7 +770,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 22, 'into': 'Sandslash'},
     'base_stats': {"HP": 50, "Attack": 75, "Defense": 85, "Speed": 40, "Special": 30},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Burrows deep underground in arid locations far from water. It only emerges to hunt for food.",
                         "Yellow: It prefers dry, sandy places because it uses the sand to protect itself when threatened."],
     'level_up_learnset': {
@@ -811,7 +810,7 @@ pokemon_dict = {
     'base_exp': 163,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 75, "Attack": 100, "Defense": 110, "Speed": 65, "Special": 55},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
                         "Yellow: In an attempt to hide itself, it will run around at top speed to kick up a blinding dust storm."],
     'level_up_learnset': {
@@ -854,7 +853,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'level': 16, 'into': 'Nidorina'},
     'base_stats': {"HP": 55, "Attack": 47, "Defense": 52, "Speed": 41, "Special": 40},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Although small, its venomous barbs render this POKéMON dangerous. The female has smaller horns.",
                         "Yellow: Although not very combative, it will torment its foes with poison spikes if it is threatened in any way."],
     'level_up_learnset': {
@@ -872,7 +871,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'method': "Use Moon Stone", 'into': "Nidoqueen"},
     'base_stats': {"HP": 70, "Attack": 62, "Defense": 67, "Speed": 56, "Special": 55},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's.",
                         "Yellow: When feeding its young, it first chews and tenderizes the food, then spits it out for the offspring."],
     'level_up_learnset': {
@@ -893,7 +892,7 @@ pokemon_dict = {
     'base_exp': 194,
     'exp_group': "Medium Slow",
     'base_stats': {"HP": 90, "Attack": 82, "Defense": 87, "Speed": 76, "Special": 75},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
                         "Yellow: Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies."],
     'level_up_learnset': {
@@ -916,7 +915,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'level': 16, 'into': 'Nidorino'},
     'base_stats': {"HP": 46, "Attack": 57, "Defense": 40, "Speed": 50, "Special": 40},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.",
                         "Yellow: Its large ears are flapped like wings when it is listening to distant sounds. It extends toxic barbs when angered."],
     'level_up_learnset': {
@@ -934,7 +933,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'method': "Use Moon Stone", 'into': "Nidoking"},
     'base_stats': {"HP": 61, "Attack": 72, "Defense": 57, "Speed": 65, "Special": 55},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Tough scales cover the sturdy body of this POKéMON. It appears that the scales grow in cycles.",
                         "Yellow: An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom."],
     'level_up_learnset': {
@@ -955,7 +954,7 @@ pokemon_dict = {
     'base_exp': 194,
     'exp_group': "Medium Slow",
     'base_stats': {"HP": 81, "Attack": 92, "Defense": 77, "Speed": 85, "Special": 75},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: It uses its thick arms, legs, and tail to attack forcefully. Melee combat is its specialty.",
                         "Yellow: Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."],
     'level_up_learnset': {
@@ -979,7 +978,7 @@ pokemon_dict = {
     'exp_group': "Fast",
     'evolves': {'method': "Use Moon Stone", 'into': "Clefable"},
     'base_stats': {"HP": 70, "Attack": 45, "Defense": 48, "Speed": 35, "Special": 60},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
                         "Yellow: Adored for their cute looks and playfulness. They are thought to be rare, as they do not appear often."],
     'level_up_learnset': {
@@ -1018,7 +1017,7 @@ pokemon_dict = {
     'base_exp': 217,
     'exp_group': "Fast",
     'base_stats': {"HP": 95, "Attack": 70, "Defense": 73, "Speed": 60, "Special": 85},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: A timid fairy POKéMON that is rarely seen. It will run and hide the moment it senses people.",
                         "Yellow: Its magical and cute appeal has many admirers. It is rare and found only in certain areas."],
     'level_up_learnset': {
@@ -1057,7 +1056,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'use_item': "Use Fire Stone", 'into': "Ninetales"},
     'base_stats': {"HP": 38, "Attack": 41, "Defense": 40, "Speed": 65, "Special": 65},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: At the time of birth, it has just one tail. The tail splits from its tip as it grows older.",
                         "Yellow: Both its fur and its tails are beautiful. As it grows, the tails split and form more tails."],
     'level_up_learnset': {
@@ -1098,7 +1097,7 @@ pokemon_dict = {
     'base_exp': 178,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 73, "Attack": 76, "Defense": 75, "Speed": 100, "Special": 100},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Very smart and very vengeful. Grabbing one of its many tails could result in a bad time"],
     'level_up_learnset': {
         1: ["Ember"],
@@ -1139,7 +1138,7 @@ pokemon_dict = {
     'exp_group': "Fast",
     'evolves': {'use_item': "Use Moon Stone", 'into': "Wigglytuff"},
     'base_stats': {"HP": 115, "Attack": 45, "Defense": 20, "Speed": 20, "Special": 25},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Uses its alluring eyes to enrapture its foe. It then sings a pleasing melody that lulls the foe to sleep.",
                         "Yellow: The songs they sing are totally different depending on the region and on JIGGLYPUFF's mood."],
     'level_up_learnset': {
@@ -1176,7 +1175,7 @@ pokemon_dict = {
     'base_exp': 109,
     'exp_group': "Fast",
     'base_stats': {"HP": 140, "Attack": 70, "Defense": 45, "Speed": 45, "Special": 50},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
                         "Yellow: The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size."],
     'level_up_learnset': {
@@ -1213,7 +1212,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 22, 'into': "Golbat"},
     'base_stats': {"HP": 40, "Attack": 45, "Defense": 35, "Speed": 55, "Special": 40},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Emits ultrasonic cries while it flies. They act as a sonar used to check for objects in its way.",
                         "Yellow: Formed by its supple yet durable wings, it can easily fly the skies of any region."],
     'level_up_learnset': {
@@ -1230,7 +1229,7 @@ pokemon_dict = {
     'base_exp': 171,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 75, "Attack": 80, "Defense": 70, "Speed": 90, "Special": 75},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
                         "Yellow: It attacks in a stealthy manner, without warning. Its sharp fangs are used to bite and suck blood."],
     'level_up_learnset': {
@@ -1265,7 +1264,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'level': 21, 'into': "Gloom"},
     'base_stats': {"HP": 45, "Attack": 50, "Defense": 55, "Speed": 30, "Special": 75},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds.",
                         "Yellow: If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds."],
     'level_up_learnset': {
@@ -1296,7 +1295,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'use_item': "Use Leaf Stone", 'into': "Vileplume"},
     'base_stats': {"HP": 60, "Attack": 65, "Defense": 70, "Speed": 40, "Special": 85},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey.",
                         "Yellow: Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink."],
     'level_up_learnset': {
@@ -1330,7 +1329,7 @@ pokemon_dict = {
     'base_exp': 184,
     'exp_group': "Medium Slow",
     'base_stats': {"HP": 75, "Attack": 80, "Defense": 85, "Speed": 50, "Special": 100},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
                         "Yellow: The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."],
     'level_up_learnset': {
@@ -1366,7 +1365,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 24, 'into': "Parasect"},
     'base_stats': {"HP": 35, "Attack": 70, "Defense": 55, "Speed": 25, "Special": 55},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
                         "Yellow: Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host."],
     'level_up_learnset': {
@@ -1383,7 +1382,7 @@ pokemon_dict = {
     'base_exp': 128,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 60, "Attack": 95, "Defense": 80, "Speed": 30, "Special": 80},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
                         "Yellow: The bug host collects food that the mushroom can eat when it becomes a PARASECT. It stays mostly in dark, damp places, the preference not of the bug, but of the big mushroom."],
     'level_up_learnset': {
@@ -1405,7 +1404,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 31, 'into': "Venomoth"},
     'base_stats': {"HP": 60, "Attack": 55, "Defense": 50, "Speed": 45, "Special": 40},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes.",
                         "Yellow: Its large eyes act as radar. In a bright place, you can see that they are clusters of many tiny eyes."],
     'level_up_learnset': {
@@ -1427,7 +1426,7 @@ pokemon_dict = {
     'base_exp': 138,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 70, "Attack": 65, "Defense": 60, "Speed": 90, "Special": 90},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
                         "Yellow: The powdery scales on its wings are hard to remove. They also contain poison that leaks out on contact."],
     'level_up_learnset': {
@@ -1445,7 +1444,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 26, 'into': "Dugtrio"},
     'base_stats': {"HP": 10, "Attack": 55, "Defense": 25, "Speed": 95, "Special": 45},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Lives about one yard underground where it feeds on plant roots. It sometimes appears aboveground.",
                         "Yellow: Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak."],
     'level_up_learnset': {
@@ -1481,7 +1480,7 @@ pokemon_dict = {
     'base_exp': 153,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 35, "Attack": 80, "Defense": 50, "Speed": 120, "Special": 70},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: A team of DIGLETT triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
                         "Yellow: A team of triplets that can burrow over 60 MPH. Due to this, some people think it's an earthquake."],
     'level_up_learnset': {
@@ -1518,7 +1517,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 28, 'into': "Persian"},
     'base_stats': {"HP": 40, "Attack": 45, "Defense": 35, "Speed": 90, "Special": 40},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
                         "Yellow: Appears to be more active at night. It loves round and shiny things. It can't stop from picking them up."],
     'level_up_learnset': {
@@ -1558,7 +1557,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'use_item': "Moon Stone", 'into': "Persian"},
     'base_stats': {"HP": 65, "Attack": 70, "Defense": 60, "Speed": 115, "Special": 65},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.",
                         "Yellow: The gem in its forehead glows on its own! It walks with all the grace and elegance of a proud queen."],
     'level_up_learnset': {
@@ -1598,7 +1597,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 33, 'into': "Golduck"},
     'base_stats': {"HP": 50, "Attack": 52, "Defense": 48, "Speed": 55, "Special": 50},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Always tormented by headaches. It uses psychic powers, but whether it intends to do so is not known.",
                         "Yellow: While lulling its enemies with its vacant look, this wily POKéMON will use psychokinetic powers."],
     'level_up_learnset': {
@@ -1640,7 +1639,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'use_item': "Water Stone", 'into': "Golduck"},
     'base_stats': {"HP": 80, "Attack": 82, "Defense": 78, "Speed": 85, "Special": 80},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Often seen swimming elegantly by lakeshores. It is often mistaken for the Japanese monster Kappa.",
                         "Yellow: Its slim and long limbs end in broad flippers. They are used for swimming gracefully in lakes."],
     'level_up_learnset': {
@@ -1690,7 +1689,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 28, 'into': "Primeape"},
     'base_stats': {"HP": 40, "Attack": 80, "Defense": 35, "Speed": 70, "Special": 35},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Extremely quick to anger. It could be docile one moment then thrashing away the next instant.",
                         "Yellow: An agile POKéMON that lives in trees. It angers easily and will not hesitate to attack anything."],
     'level_up_learnset': {
@@ -1725,7 +1724,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'use_item': "Moon Stone", 'into': "Primeape"},
     'base_stats': {"HP": 65, "Attack": 105, "Defense": 60, "Speed": 95, "Special": 60},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught.",
                         "Yellow: When Primeape becomes furious, its blood circulation is boosted. In turn, its muscles are made even stronger."],
     'level_up_learnset': {
@@ -1761,7 +1760,7 @@ pokemon_dict = {
     'exp_group': "Slow",
     'evolves': {'use_item': "Fire Stone", 'into': "Arcanine"},
     'base_stats': {"HP": 55, "Attack": 70, "Defense": 45, "Speed": 60, "Special": 50},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Very protective of its territory. It will bark and bite to repel intruders from its space.",
                         "Yellow: A POKéMON with a friendly nature. However, it will bark fiercely at anything invading its territory."],
     'level_up_learnset': {
@@ -1801,7 +1800,7 @@ pokemon_dict = {
     'base_exp': 194,
     'exp_group': "Slow",
     'base_stats': {"HP": 90, "Attack": 110, "Defense": 80, "Speed": 95, "Special": 80},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: A POKéMON that has been admired since the past for its beauty. It runs agilely as if on wings.",
                     "Yellow: An ancient picture scroll shows that people were attracted to its movement as it ran through prairies."],
     'level_up_learnset': {
@@ -1841,7 +1840,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'level': 25, 'into': "Poliwhirl"},
     'base_stats': {"HP": 40, "Attack": 50, "Defense": 40, "Speed": 90, "Special": 40},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
                         "Yellow: The direction of the spiral on the belly differs by area. It is more adept at swimming than walking."],
     'level_up_learnset': {
@@ -1883,7 +1882,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'use_item': "Water Stone", 'into': "Poliwrath"},
     'base_stats': {"HP": 65, "Attack": 65, "Defense": 65, "Speed": 90, "Special": 50},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
                         "Yellow: The direction of the spiral on the belly differs by area. It is more adept at swimming than walking."],
     'level_up_learnset': {
@@ -1925,7 +1924,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'level': 16, 'into': "Kadabra"},
     'base_stats': {"HP": 25, "Attack": 20, "Defense": 15, "Speed": 90, "Special": 105},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Using its ability to read minds, it will identify impending danger and TELEPORT to safety.",
                         "Yellow: Sleeps 18 hours a day. If it senses danger, it will teleport itself to safety even as it sleeps."],
     'level_up_learnset': {
@@ -1943,7 +1942,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'use_item': "Link Cable Stone", 'into': "Alakazam"},
     'base_stats': {"HP": 40, "Attack": 35, "Defense": 30, "Speed": 105, "Special": 120},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: It emits special alpha waves from its body that induce headaches just by being close by.",
                         "Yellow: It possesses strong spiritual power. The more danger it faces, the stronger its psychic power."],
     'level_up_learnset': {
@@ -2005,7 +2004,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'level': 28, 'into': "Machoke"},
     'base_stats': {"HP": 70, "Attack": 80, "Defense": 50, "Speed": 35, "Special": 35},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
                         "Yellow: Very powerful in spite of its small size. Its mastery of many types of martial arts makes it very tough."],
     'level_up_learnset': {
@@ -2049,7 +2048,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'trade': "Machop", 'into': "Machamp"},
     'base_stats': {"HP": 80, "Attack": 100, "Defense": 70, "Speed": 45, "Special": 50},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Very powerful in spite of its small size. Its mastery of many types of martial arts makes it very tough.",
                         "Yellow: The belt around its waist holds back its energy. Without it, this POKéMON would be unstoppable."],
     'level_up_learnset': {
@@ -2093,7 +2092,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'level': 21, 'into': "Weepinbell"},
     'base_stats': {"HP": 50, "Attack": 75, "Defense": 35, "Speed": 40, "Special": 70},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A carnivorous POKéMON that traps and eats bugs. It uses its root feet to soak up needed moisture.",
                         "Yellow: Prefers hot and humid places. It ensnares tiny insects with its vines and devours them."],
     'level_up_learnset': {
@@ -2131,7 +2130,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'use_item': "Leaf Stone", 'into': "Victreebel"},
     'base_stats': {"HP": 65, "Attack": 90, "Defense": 50, "Speed": 55, "Special": 85},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: It spits out POISONPOWDER to immobilize the enemy and then finishes it with a spray of ACID.",
                         "Yellow: It is said to ensnare prey by dousing its vines with attractive honey and licking its lips."],
     'level_up_learnset': {
@@ -2168,7 +2167,7 @@ pokemon_dict = {
     'base_exp': 191,
     'exp_group': "Medium Slow",
     'base_stats': {"HP": 80, "Attack": 105, "Defense": 65, "Speed": 70, "Special": 100},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Lures prey with the sweet aroma of honey. Swallowed whole, the prey is dissolved in a day, bones and all.",
                         "Yellow: Once ingested into this POKéMON's body, even the hardest object will melt into nothing."],
     'level_up_learnset': {
@@ -2206,7 +2205,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 30, 'into': "Tentacruel"},
     'base_stats': {"HP": 40, "Attack": 40, "Defense": 35, "Speed": 70, "Special": 100},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Drifts in shallow seas. Anglers who hook them by accident are often punished by their stingers.",
                         "Yellow: Its body is virtually composed of water. It shoots strange beams from its crystal-like eyes."],
     'level_up_learnset': {
@@ -2253,7 +2252,7 @@ pokemon_dict = {
     'base_exp': 205,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 80, "Attack": 70, "Defense": 65, "Speed": 100, "Special": 120},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
                         "Yellow: Its 80 tentacles can stretch and contract freely. They wrap around prey and weaken it with poison."],
     'level_up_learnset': {
@@ -2301,7 +2300,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'level': 25, 'into': "Graveler"},
     'base_stats': {"HP": 40, "Attack": 80, "Defense": 100, "Speed": 20, "Special": 30},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Found in fields and mountains. Mistaking them for boulders, people often step or trip on them.",
                         "Yellow: Commonly found near mountain trails and the like. If you step on one by accident, it gets angry."],
     'level_up_learnset': {
@@ -2342,7 +2341,7 @@ pokemon_dict = {
     'exp_group': "Medium Slow",
     'evolves': {'trade': 'Geodude', 'into': "Golem"},
     'base_stats': {"HP": 55, "Attack": 95, "Defense": 115, "Speed": 35, "Special": 45},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
                         "Yellow: Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid."],
     'level_up_learnset': {
@@ -2382,7 +2381,7 @@ pokemon_dict = {
     'base_exp': 177,
     'exp_group': "Medium Slow",
     'base_stats': {"HP": 80, "Attack": 110, "Defense": 130, "Speed": 45, "Special": 55},
-    'critical_hit_chance': "4.8%",
+    'critical_hit_chance': 4.8,
     'pokedex_entries': ["Red/Blue: Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
                         "Yellow: Once it sheds its skin, its body turns tender and whitish. Its hide hardens when it's exposed to air."],
     'level_up_learnset': {
@@ -2423,7 +2422,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 40, 'into': "Rapidash"},
     'base_stats': {"HP": 50, "Attack": 85, "Defense": 55, "Speed": 90, "Special": 65},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Capable of jumping incredibly high. Its hooves and sturdy legs absorb the impact of a hard landing.",
                         "Yellow: Its legs are so powerful, it can clear Ay foot fence with ease. It loves to frolic and prance in fields."],
     'level_up_learnset': {
@@ -2465,7 +2464,7 @@ pokemon_dict = {
     'base_exp': 192,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 65, "Attack": 100, "Defense": 70, "Speed": 105, "Special": 80},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Very competitive, this Pokemon will chase anything that moves fast in the hopes of racing it.",
                         "Yellow: Just loves to run. If it sees something faster than itself, it will give chase at top speed."],
     'level_up_learnset': {
@@ -2508,7 +2507,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 37, 'into': "Slowbro"},
     'base_stats': {"HP": 90, "Attack": 65, "Defense": 65, "Speed": 15, "Special": 40},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Incredibly slow and sluggish. It is quite content to loll about without worrying about the time.",
                         "Yellow: Incredibly slow and sluggish. It is quite content to loll about without worrying about the time."],
     'level_up_learnset': {
@@ -2553,7 +2552,7 @@ pokemon_dict = {
     'base_exp': 164,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 95, "Attack": 75, "Defense": 110, "Speed": 30, "Special": 80},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Slow-witted and oblivious, it becomes a target for thieves when it leaves its shell to eat vegetation.",
                         "Yellow: The Shellder that latches onto Slowpoke's tail is said to feed on the host's leftover scraps."],
     'level_up_learnset': {
@@ -2599,7 +2598,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 30, 'into': "Magneton"},
     'base_stats': {"HP": 25, "Attack": 35, "Defense": 70, "Speed": 45, "Special": 95},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Uses anti-gravity to stay suspended. Appears without warning and uses THUNDER WAVE and similar moves.",
                         "Yellow: Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up."],
     'level_up_learnset': {
@@ -2640,7 +2639,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves_from': "Magnemite",
     'base_stats': {"HP": 50, "Attack": 60, "Defense": 95, "Speed": 70, "Special": 120},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Formed by several MAGNEMITEs linked together. They frequently appear when sunspots flare up.",
                         "Yellow: Generates strange radio signals. It raises the temperature by 3.6F degrees within 3,300 feet."],
     'level_up_learnset': {
@@ -2679,7 +2678,7 @@ pokemon_dict = {
     'base_exp': 123,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 52, "Attack": 65, "Defense": 55, "Speed": 60, "Special": 58},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: The sprig of green onions it holds is its weapon. It is used much like a metal sword.",
                         "Yellow: Lives where reedy plants grow. They are rarely seen, so it's thought their numbers are decreasing."],
     'level_up_learnset': {
@@ -2717,7 +2716,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 31, 'into': "Dodrio"},
     'base_stats': {"HP": 35, "Attack": 85, "Defense": 45, "Speed": 75, "Special": 35},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
                         "Yellow: Two heads sleep while the other one sleeps. The heads wake up alternately."],
     'level_up_learnset': {
@@ -2756,7 +2755,7 @@ pokemon_dict = {
     'exp_group': "Water 1",
     'evolves': {'level': 34, 'into': "Dewgong"},
     'base_stats': {"HP": 65, "Attack": 45, "Defense": 55, "Speed": 45, "Special": 70},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Loves freezing cold conditions. Relishes swimming in a frigid climate of around 14F degrees.",
                         "Yellow: The protruding horn on its head is very hard. It is used for bashing through thick ice."],
     'level_up_learnset': {
@@ -2798,7 +2797,7 @@ pokemon_dict = {
     'exp_group': "Water 1",
     'evolves_from': "Seel",
     'base_stats': {"HP": 90, "Attack": 70, "Defense": 80, "Speed": 70, "Special": 95},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
                         "Yellow: Its entire body is a snowy-white. Unharmed by even intense cold, it swims powerfully in icy waters."],
     'level_up_learnset': {
@@ -2841,7 +2840,7 @@ pokemon_dict = {
     'exp_group': "Amorphous",
     'evolves': {'level': 38, 'into': "Muk"},
     'base_stats': {"HP": 80, "Attack": 80, "Defense": 50, "Speed": 25, "Special": 40},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Made of hardened sludge. It smells too putrid to touch. Even weeds won't grow in its path.",
                         "Yellow: Appears in filthy areas. It thrives by sucking up polluted sludge that is pumped out of factories."],
     'level_up_learnset': {
@@ -2876,7 +2875,7 @@ pokemon_dict = {
     'exp_group': "Amorphous",
     'evolves_from': "Grimer",
     'base_stats': {"HP": 105, "Attack": 105, "Defense": 75, "Speed": 50, "Special": 65},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
                         "Yellow: Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell."],
     'level_up_learnset': {
@@ -2912,7 +2911,7 @@ pokemon_dict = {
     'exp_group': "Water 3",
     'evolves': {'item': "Water Stone", 'into': "Cloyster"},
     'base_stats': {"HP": 30, "Attack": 65, "Defense": 100, "Speed": 40, "Special": 45},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
                         "Yellow: The shell can withstand any attack. However, when it is opened, the tender body is exposed."],
     'level_up_learnset': {
@@ -2953,7 +2952,7 @@ pokemon_dict = {
     'exp_group': "Water 3",
     'evolves_from': "Shellder",
     'base_stats': {"HP": 50, "Attack": 95, "Defense": 180, "Speed": 70, "Special": 85},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: For protection, it uses its harder-than-diamonds shell. It also shoots spikes from the shell.",
                         "Yellow: When attacked, it launches its horns in quick volleys. Its innards have never been seen."],
     'level_up_learnset': {
@@ -2995,7 +2994,7 @@ pokemon_dict = {
     'exp_group': "Amorphous",
     'evolves': {'level': 25, 'into': "Haunter"},
     'base_stats': {"HP": 30, "Attack": 35, "Defense": 30, "Speed": 80, "Special": 100},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Almost invisible, this gaseous POKéMON cloaks the target and puts it to sleep without notice.",
                         "Yellow: A being that exists as a thin gas. It can topple an Indian elephant by enveloping the prey in two seconds."],
     'level_up_learnset': {
@@ -3037,7 +3036,7 @@ pokemon_dict = {
     'evolves_from': "Gastly",
     'evolves': {'trade': "Gengar"},
     'base_stats': {"HP": 45, "Attack": 50, "Defense": 45, "Speed": 95, "Special": 115},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: By licking, it saps the victim's life. It causes shaking that won't stop until the victim's demise.",
                         "Yellow: Because of its ability to slip through block walls, it is said to be from another dimension."],
     'level_up_learnset': {
@@ -3078,7 +3077,7 @@ pokemon_dict = {
     'exp_group': "Amorphous",
     'evolves_from': "Haunter",
     'base_stats': {"HP": 60, "Attack": 65, "Defense": 60, "Speed": 110, "Special": 130},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Under a full moon, this POKéMON likes to mimic the shadows of people and laugh at their fright.",
                         "Yellow: Said to appear in decrepit, deserted buildings. It has no real shape as it appears to be made of a gas."],
     'level_up_learnset': {
@@ -3120,7 +3119,7 @@ pokemon_dict = {
     'exp_group': "Mineral",
     'evolves': {'trade': "Steelix"},
     'base_stats': {"HP": 35, "Attack": 45, "Defense": 160, "Speed": 70, "Special": 30},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Burrows at high speed in search of food. The tunnels it leaves are used as homes by DIGLETTs.",
                         "Yellow: As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid."],
     'level_up_learnset': {
@@ -3165,7 +3164,7 @@ pokemon_dict = {
     'exp_group': "Human-Like",
     'evolves': {'level': 26, 'into': "Hypno"},
     'base_stats': {"HP": 60, "Attack": 48, "Defense": 45, "Speed": 42, "Special": 90},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams.",
                         "Yellow: If you sleep by it all the time, it will sometimes show you dreams it has eaten in the past."],
     'level_up_learnset': {
@@ -3208,7 +3207,7 @@ pokemon_dict = {
     'exp_group': "Human-Like",
     'evolves_from': "Drowzee",
     'base_stats': {"HP": 85, "Attack": 73, "Defense": 70, "Speed": 67, "Special": 115},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: When it locks eyes with an enemy, it will use a mix of PSI moves such as HYPNOSIS and CONFUSION.",
                         "Yellow: Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum."],
     'level_up_learnset': {
@@ -3251,7 +3250,7 @@ pokemon_dict = {
     'exp_group': "Water 3",
     'evolves': {'level': 28, 'into': "Kingler"},
     'base_stats': {"HP": 30, "Attack": 105, "Defense": 90, "Speed": 50, "Special": 25},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: The pincers break off easily. If it loses a pincer, it somehow becomes incapable of walking sideways.",
                         "Yellow: Its pincers are superb weapons. They sometimes break off during battle, but they grow back fast."],
     'level_up_learnset': {
@@ -3293,7 +3292,7 @@ pokemon_dict = {
     'exp_group': "Water 3",
     'evolves_from': "Krabby",
     'base_stats': {"HP": 55, "Attack": 130, "Defense": 115, "Speed": 75, "Special": 50},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
                         "Yellow: The larger pincer has 10,000-horsepower strength. However, it is so heavy, it is difficult to aim."],
     'level_up_learnset': {
@@ -3334,7 +3333,7 @@ pokemon_dict = {
     'exp_group': "Mineral",
     'evolves': {'level': 30, 'into': "Electrode"},
     'base_stats': {"HP": 40, "Attack": 30, "Defense": 50, "Speed": 100, "Special": 55},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Usually found in power plants. Easily mistaken for a POKé BALL, they have zapped many people.",
                         "Yellow: Often mistaken for a POKé BALL, it has zapped many people. It is usually found in power plants."],
     'level_up_learnset': {
@@ -3372,7 +3371,7 @@ pokemon_dict = {
     'exp_group': "Mineral",
     'evolves_from': "Voltorb",
     'base_stats': {"HP": 60, "Attack": 50, "Defense": 70, "Speed": 140, "Special": 80},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: It stores electric energy under very high pressure. It often explodes with little or no provocation.",
                         "Yellow: It stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion."],
     'level_up_learnset': {
@@ -3410,7 +3409,7 @@ pokemon_dict = {
     'exp_group': "Grass",
     'evolves': {'method': "use_item", 'item': "Leaf Stone", 'into': "Exeggutor"},
     'base_stats': {"HP": 60, "Attack": 40, "Defense": 80, "Speed": 40, "Special": 60},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
                         "Yellow: Its six eggs converse using telepathy. They can quickly gather if they become separated."],
     'level_up_learnset': {
@@ -3448,7 +3447,7 @@ pokemon_dict = {
     'exp_group': "Grass",
     'evolves_from': "Exeggcute",
     'base_stats': {"HP": 95, "Attack": 95, "Defense": 85, "Speed": 55, "Special": 125},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Legend has it that on rare occasions, one of its heads will drop off and continue on as an EXEGGCUTE.",
                         "Yellow: Its cries are very noisy. This is because each of the three heads thinks about whatever it likes."],
     'level_up_learnset': {
@@ -3490,7 +3489,7 @@ pokemon_dict = {
     'exp_group': "Monster",
     'evolves': {'level': 28, 'into': "Marowak"},
     'base_stats': {"HP": 50, "Attack": 50, "Defense": 95, "Speed": 35, "Special": 40},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Because it never removes its skull helmet, no one has ever seen this POKéMON's real face.",
                         "Yellow: Wears the skull of its deceased mother. Its cries echo inside the skull and come out as a sad melody."],
     'level_up_learnset': {
@@ -3531,7 +3530,7 @@ pokemon_dict = {
     'exp_group': "Monster",
     'evolves_from': "Cubone",
     'base_stats': {"HP": 60, "Attack": 80, "Defense": 110, "Speed": 45, "Special": 50},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets.",
                         "Yellow: Small and weak, this POKéMON is adept with its bone club. It has grown more vicious over the ages."],
     'level_up_learnset': {
@@ -3573,7 +3572,7 @@ pokemon_dict = {
     'exp_group': "Human-Like",
     'evolves_from': {"method": "level_up", "method_value": 20, "into": "Hitmonchan"},
     'base_stats': {"HP": 50, "Attack": 120, "Defense": 53, "Speed": 87, "Special": 35},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: When kicking, the sole of its foot turns as hard as a diamond on impact and destroys its enemy.",
                         "Yellow: The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick."],
     'level_up_learnset': {
@@ -3617,7 +3616,7 @@ pokemon_dict = {
     'exp_group': "Human-Like",
     'evolves_from': {"method": "level_up", "method_value": 20, "into": "Hitmonlee"},
     'base_stats': {"HP": 50, "Attack": 105, "Defense": 79, "Speed": 76, "Special": 35},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: While apparently doing nothing, it fires punches in lightning-fast volleys that are impossible to see.",
                         "Yellow: Punches in corkscrew fashion. It can punch its way through a concrete wall in the same way as a drill."],
     'level_up_learnset': {
@@ -3661,7 +3660,7 @@ pokemon_dict = {
     'base_exp': 127,
     'exp_group': "Monster",
     'base_stats': {"HP": 90, "Attack": 55, "Defense": 75, "Speed": 30, "Special": 60},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies.",
                         "Yellow: Its tongue spans almost 7 feet and moves more freely than its forelegs. Its licks can cause paralysis."],
     'level_up_learnset': {
@@ -3704,7 +3703,7 @@ pokemon_dict = {
     'exp_group': "Amorphous",
     'evolves': {'method': "level_up", 'method_value': 35, 'into': "Weezing"},
     'base_stats': {"HP": 40, "Attack": 65, "Defense": 95, "Speed": 35, "Special": 60},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
                         "Yellow: In hot places, its internal gases could expand and explode without any warning. Be very careful!"],
     'level_up_learnset': {
@@ -3739,7 +3738,7 @@ pokemon_dict = {
     'base_exp': 173,
     'exp_group': "Amorphous",
     'base_stats': {"HP": 65, "Attack": 90, "Defense": 120, "Speed": 60, "Special": 85},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Where two kinds of poison gases meet, 2 KOFFINGs can fuse into a WEEZING over many years.",
                         "Yellow: It lives and grows by absorbing dust, germs and poison gases that are contained in toxic waste and garbage."],
     'level_up_learnset': {
@@ -3775,7 +3774,7 @@ pokemon_dict = {
     'exp_group': "Monster",
     'evolves': {'method': "level_up", 'method_value': 42, 'into': "Rhydon"},
     'base_stats': {"HP": 80, "Attack": 85, "Defense": 95, "Speed": 25, "Special": 30},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A Pokémon with a one-track mind. Once it charges, it won't stop running until it falls asleep.",
                         "Yellow: Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying."],
     'level_up_learnset': {
@@ -3815,7 +3814,7 @@ pokemon_dict = {
     'base_exp': 204,
     'exp_group': "Monster",
     'base_stats': {"HP": 105, "Attack": 130, "Defense": 120, "Speed": 45, "Special": 45},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees.",
                         "Yellow: Walks on its hind legs. Shows signs of intelligence. Its armor-like hide even repels molten lava."],
     'level_up_learnset': {
@@ -3857,7 +3856,7 @@ pokemon_dict = {
     'exp_group': "Fairy",
     'evolves_from': "Happiny",
     'base_stats': {"HP": 250, "Attack": 5, "Defense": 5, "Speed": 50, "Special": 105},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A gentle and kind-hearted Pokémon that shares its nutritious eggs if it sees an injured Pokémon.",
                         "Yellow: A rare and elusive Pokémon that is said to bring happiness to those who manage to get it."],
     'level_up_learnset': {
@@ -3898,7 +3897,7 @@ pokemon_dict = {
     'base_exp': 166,
     'exp_group': "Grass",
     'base_stats': {"HP": 65, "Attack": 55, "Defense": 115, "Speed": 60, "Special": 100},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks.",
                         "Yellow: Its identity is obscured by masses of thick, blue vines. The vines are said to never stop growing."],
     'level_up_learnset': {
@@ -3934,7 +3933,7 @@ pokemon_dict = {
     'base_exp': 175,
     'exp_group': "Monster",
     'base_stats': {"HP": 105, "Attack": 95, "Defense": 80, "Speed": 90, "Special": 40},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Raises its young in its belly pouch. Won't run from any fight to keep its young protected.",
                         "Yellow: Carries a baby Kangaskhan in its pouch. Throws punches with its oversize limbs."],
     'level_up_learnset': {
@@ -3974,7 +3973,7 @@ pokemon_dict = {
     'exp_group': "Water 1",
     'evolves': {'method': "level_up", 'method_value': 32, 'into': "Seadra"},
     'base_stats': {"HP": 30, "Attack": 40, "Defense": 70, "Speed": 60, "Special": 70},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
                         "Yellow: If it senses any danger, it will vigorously spray water or a special type of ink from its mouth."],
     'level_up_learnset': {
@@ -4012,7 +4011,7 @@ pokemon_dict = {
     'base_exp': 155,
     'exp_group': "Water 1",
     'base_stats': {"HP": 55, "Attack": 65, "Defense": 95, "Speed": 85, "Special": 95},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail.",
                         "Yellow: Its body bristles with sharp spikes. Carelessly trying to touch it could cause fainting from the spikes."],
     'level_up_learnset': {
@@ -4052,7 +4051,7 @@ pokemon_dict = {
     'exp_group': "Water 2",
     'evolves': {'method': "level_up", 'method_value': 33, 'into': "Seaking"},
     'base_stats': {"HP": 45, "Attack": 67, "Defense": 60, "Speed": 63, "Special": 50},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen.",
                         "Yellow: When it is time for them to lay eggs, they can be seen swimming up rivers and falls in large groups."],
     'level_up_learnset': {
@@ -4091,7 +4090,7 @@ pokemon_dict = {
     'base_exp': 170,
     'exp_group': "Water 2",
     'base_stats': {"HP": 80, "Attack": 92, "Defense": 65, "Speed": 68, "Special": 80},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: In the autumn, Seaking males can be seen performing courtship dances in riverbeds to woo females.",
                         "Yellow: Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from being washed away by the current."],
     'level_up_learnset': {
@@ -4132,7 +4131,7 @@ pokemon_dict = {
     'exp_group': "Water 3",
     'evolves': {'method': "use_item", 'method_value': "Water Stone", 'into': "Starmie"},
     'base_stats': {"HP": 30, "Attack": 45, "Defense": 55, "Speed": 85, "Special": 70},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
                         "Yellow: As long as the center section is unharmed, it can grow back fully, even if it is chopped to bits."],
     'level_up_learnset': {
@@ -4173,7 +4172,7 @@ pokemon_dict = {
     'base_exp': 207,
     'exp_group': "Water 3",
     'base_stats': {"HP": 60, "Attack": 75, "Defense": 85, "Speed": 115, "Special": 100},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Its central core glows with the seven colors of the rainbow. Some people value the core as a gem.",
                         "Yellow: Its central core shines with the seven colors of the rainbow. Some people mistakenly value it as a gem."],
     'level_up_learnset': {
@@ -4216,7 +4215,7 @@ pokemon_dict = {
     'base_exp': 136,
     'exp_group': "Human-Like",
     'base_stats': {"HP": 40, "Attack": 45, "Defense": 65, "Speed": 90, "Special": 100},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: If interrupted while it is miming, it will slap around the offender with its broad hands.",
                         "Yellow: Always practices its pantomime act. It makes enemies believe something exists that really doesn't."],
     'level_up_learnset': {
@@ -4252,7 +4251,7 @@ pokemon_dict = {
     'base_exp': 187,
     'exp_group': "Bug",
     'base_stats': {"HP": 70, "Attack": 110, "Defense": 80, "Speed": 105, "Special": 55},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: With ninja-like agility and speed, it can create the illusion that there is more than one.",
                         "Yellow: Leaps out of tall grass and slices prey with its scythes. The movement looks like that of a ninja."],
     'level_up_learnset': {
@@ -4289,7 +4288,7 @@ pokemon_dict = {
     'base_exp': 137,
     'exp_group': "Human-Like",
     'base_stats': {"HP": 65, "Attack": 50, "Defense": 35, "Speed": 95, "Special": 95},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: It seductively wiggles its hips as it walks. It can cause people to dance in unison with it.",
                         "Yellow: Appears to move to a rhythm of its own, as if it were dancing. It wiggles its hips as it walks."],
     'level_up_learnset': {
@@ -4329,7 +4328,7 @@ pokemon_dict = {
     'base_exp': 156,
     'exp_group': "Human-Like",
     'base_stats': {"HP": 65, "Attack": 83, "Defense": 57, "Speed": 105, "Special": 85},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Normally found near power plants, they can wander away and cause major blackouts in cities.",
                         "Yellow: If a major power outage occurs, it is certain that this Pokémon has eaten electricity at a power plant."],
     'level_up_learnset': {
@@ -4366,7 +4365,7 @@ pokemon_dict = {
     'base_exp': 167,
     'exp_group': "Human-Like",
     'base_stats': {"HP": 65, "Attack": 95, "Defense": 57, "Speed": 93, "Special": 85},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: It likes to live in volcanoes, craters, and other locations with a high heat index.",
                         "Yellow: Its body always burns with an orange glow that enables it to hide perfectly among flames."],
     'level_up_learnset': {
@@ -4403,7 +4402,7 @@ pokemon_dict = {
     'base_exp': 200,
     'exp_group': "Bug",
     'base_stats': {"HP": 65, "Attack": 125, "Defense": 100, "Speed": 85, "Special": 55},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: If it fails to crush the victim in its pincers, it will swing it around and toss it hard.",
                         "Yellow: Grips its prey in its pincers and squeezes hard! It can't move if it's cold, so it lives in warm places."],
     'level_up_learnset': {
@@ -4440,7 +4439,7 @@ pokemon_dict = {
     'base_exp': 211,
     'exp_group': "Field",
     'base_stats': {"HP": 75, "Attack": 100, "Defense": 95, "Speed": 110, "Special": 70},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A rowdy Pokémon with a lot of stamina. Once running, it won't stop until it hits something.",
                         "Yellow: When it targets an enemy, it charges furiously while whipping its body with its long tails."],
     'level_up_learnset': {
@@ -4476,7 +4475,7 @@ pokemon_dict = {
     'exp_group': "Water 2",
     'evolves': {'method': "level_up", 'method_value': 20, 'into': "Gyarados"},
     'base_stats': {"HP": 20, "Attack": 10, "Defense": 55, "Speed": 80, "Special": 15},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: In the distant past, it was somewhat stronger than the horribly weak descendants that exist today.",
                         "Yellow: It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."],
     'level_up_learnset': {
@@ -4503,7 +4502,7 @@ pokemon_dict = {
     'base_exp': 214,
     'exp_group': "Dragon",
     'base_stats': {"HP": 95, "Attack": 125, "Defense": 79, "Speed": 81, "Special": 100},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
                         "Yellow: Once it appears, its rage never settles until it has razed the fields and mountains around it."],
     'level_up_learnset': {
@@ -4538,7 +4537,7 @@ pokemon_dict = {
     'base_exp': 219,
     'exp_group': "Monster",
     'base_stats': {"HP": 130, "Attack": 85, "Defense": 80, "Speed": 60, "Special": 95},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A gentle soul that can read the minds of people. It can ferry people across the sea on its back.",
                         "Yellow: A Pokémon that has been overhunted almost to extinction. It can ferry people across the water."],
     'level_up_learnset': {
@@ -4584,7 +4583,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'method': "stone", 'method_value': "Water Stone, Thunder Stone, Fire Stone"},
     'base_stats': {"HP": 55, "Attack": 55, "Defense": 50, "Speed": 55, "Special": 65},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Its genetic code is irregular. It may mutate if it is exposed to radiation from element STONEs.",
                         "Yellow: Its genetic code is unstable, so it could evolve in a variety of ways. There are only a few alive."],
     'level_up_learnset': {
@@ -4617,7 +4616,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'method': "stone", 'method_value': "Water Stone"},
     'base_stats': {"HP": 130, "Attack": 65, "Defense": 60, "Speed": 65, "Special": 110},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's.",
                         "Yellow: An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers."],
     'level_up_learnset': {
@@ -4654,7 +4653,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'method': "stone", 'method_value': "Thunder Stone"},
     'base_stats': {"HP": 65, "Attack": 65, "Defense": 60, "Speed": 130, "Special": 110},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: It accumulates negative ions in the atmosphere to blast out 10000-volt lightning bolts.",
                         "Yellow: Every hair on its body starts to stand sharply on end if it becomes charged with electricity."],
     'level_up_learnset': {
@@ -4689,7 +4688,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'method': "stone", 'method_value': "Fire Stone"},
     'base_stats': {"HP": 65, "Attack": 130, "Defense": 60, "Speed": 65, "Special": 110},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: When storing thermal energy in its body, its temperature could soar to over 1600 degrees.",
                         "Yellow: If it inhales deeply, that's a sign it's about to attack. Prepare to be hit by flames of over 3000 degrees F."],
     'level_up_learnset': {
@@ -4724,7 +4723,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'method': "trade", 'method_value': "Up-Grade"},
     'base_stats': {"HP": 65, "Attack": 60, "Defense": 70, "Speed": 40, "Special": 75},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A Pokemon that consists entirely of programming code. Capable of moving freely in cyberspace.",
                         "Yellow: The only Pokemon people anticipate can fly into space. None has managed the feat yet, however."],
     'level_up_learnset': {
@@ -4772,7 +4771,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 40, 'into': 'Omastar'},
     'base_stats': {"HP": 35, "Attack": 40, "Defense": 100, "Speed": 35, "Special": 90},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: An ancient Pokemon that was recovered from a fossil. It swims by cleverly twisting its 10 tentacles about.",
                         "Yellow: Although long extinct, in rare cases, it can be genetically resurrected from fossils."],
     'level_up_learnset': {
@@ -4813,7 +4812,7 @@ pokemon_dict = {
     'base_exp': 199,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 70, "Attack": 60, "Defense": 125, "Speed": 55, "Special": 115},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A prehistoric Pokemon that died out when its heavy shell made it impossible to catch prey.",
                         "Yellow: Despite having strong fangs and tentacles, it went extinct when its heavy shell made it unable to catch prey."],
     'level_up_learnset': {
@@ -4855,7 +4854,7 @@ pokemon_dict = {
     'exp_group': "Medium Fast",
     'evolves': {'level': 40, 'into': 'Kabutops'},
     'base_stats': {"HP": 30, "Attack": 80, "Defense": 90, "Speed": 55, "Special": 45},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A Pokemon that was resurrected from a fossil using modern science. It swam in ancient seas.",
                         "Yellow: This Pokemon was regenerated from the fossil of an ancient creature. It protects itself with a hard shell."],
     'level_up_learnset': {
@@ -4896,7 +4895,7 @@ pokemon_dict = {
     'base_exp': 199,
     'exp_group': "Medium Fast",
     'base_stats': {"HP": 60, "Attack": 115, "Defense": 105, "Speed": 80, "Special": 70},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A slim and fast swimmer. It slices its prey with its sharp sickles and drinks the body fluids.",
                         "Yellow: In the water, it tucks in its limbs to become more compact, then it wiggles its shell to swim fast."],
     'level_up_learnset': {
@@ -4938,7 +4937,7 @@ pokemon_dict = {
     'base_exp': 202,
     'exp_group': "Slow",
     'base_stats': {"HP": 80, "Attack": 105, "Defense": 65, "Speed": 130, "Special": 60},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A ferocious, prehistoric Pokemon that goes for the enemy's throat with its serrated saw-like fangs.",
                         "Yellow: A savage Pokemon that died out in ancient times. It was resurrected using DNA taken from amber."],
     'level_up_learnset': {
@@ -4978,7 +4977,7 @@ pokemon_dict = {
     'base_exp': 154,
     'exp_group': "Slow",
     'base_stats': {"HP": 160, "Attack": 110, "Defense": 65, "Speed": 30, "Special": 65},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
                         "Yellow: Will eat anything, even if the food happens to be a little moldy. It never gets an upset stomach."],
     'level_up_learnset': {
@@ -5012,7 +5011,7 @@ pokemon_dict = {
     'base_exp': 215,
     'exp_group': "Slow",
     'base_stats': {"HP": 90, "Attack": 85, "Defense": 100, "Speed": 85, "Special": 125},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A legendary bird Pokemon that is said to appear to doomed people who are lost in icy mountains.",
                         "Yellow: A legendary bird Pokemon. It freezes water that is contained in winter air and makes it snow."],
     'level_up_learnset': {
@@ -5053,7 +5052,7 @@ pokemon_dict = {
     'base_exp': 216,
     'exp_group': "Slow",
     'base_stats': {"HP": 90, "Attack": 90, "Defense": 85, "Speed": 100, "Special": 125},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A legendary bird Pokemon that is said to appear from clouds while dropping enormous lightning bolts.",
                         "Yellow: Legendary bird Pokemon. They say lightning caused by the flapping of its wings causes summer storms."],
     'level_up_learnset': {
@@ -5095,7 +5094,7 @@ pokemon_dict = {
     'base_exp': 217,
     'exp_group': "Slow",
     'base_stats': {"HP": 90, "Attack": 100, "Defense": 90, "Speed": 90, "Special": 125},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
                         "Yellow: A legendary bird Pokemon. As it flaps its blazing wings, even the night sky will turn red."],
     'level_up_learnset': {
@@ -5136,7 +5135,7 @@ pokemon_dict = {
     'exp_group': "Slow",
     'evolves': {'level': 30, 'into': 'Dragonair'},
     'base_stats': {"HP": 41, "Attack": 64, "Defense": 45, "Speed": 50, "Special": 50},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Long considered a mythical Pokemon until recently when a small colony was found living underwater.",
                         "Yellow: A rare and elusive Pokemon that is said to bring happiness to those who manage to get it."],
     'level_up_learnset': {
@@ -5181,7 +5180,7 @@ pokemon_dict = {
     'exp_group': "Slow",
     'evolves': {'level': 55, 'into': 'Dragonite'},
     'base_stats': {"HP": 61, "Attack": 84, "Defense": 65, "Speed": 70, "Special": 70},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: A mystical Pokemon that exudes a gentle aura. Has the ability to change climate conditions.",
                         "Yellow: A mystical Pokemon that exudes a gentle aura. Has the ability to change climate conditions."],
     'level_up_learnset': {
@@ -5226,7 +5225,7 @@ pokemon_dict = {
     'base_exp': 218,
     'exp_group': "Slow",
     'base_stats': {"HP": 91, "Attack": 134, "Defense": 95, "Speed": 80, "Special": 100},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: An extremely rarely seen marine Pokemon. Its intelligence is said to match that of humans.",
                         "Yellow: It is said that this Pokemon lives somewhere in the sea and that it flies. However, it is only a rumor."],
     'level_up_learnset': {
@@ -5274,7 +5273,7 @@ pokemon_dict = {
     'base_exp': 220,
     'exp_group': "Slow",
     'base_stats': {"HP": 106, "Attack": 110, "Defense": 90, "Speed": 130, "Special": 154},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: Created by a scientist after years of horrific gene splicing and DNA engineering experiments.",
                         "Yellow: It was created by a scientist after years of horrific gene splicing and DNA engineering experiments."],
     'level_up_learnset': {
@@ -5342,7 +5341,7 @@ pokemon_dict = {
     'base_exp': 220,
     'exp_group': "Medium Slow",
     'base_stats': {"HP": 100, "Attack": 100, "Defense": 100, "Speed": 100, "Special": 100},
-    'critical_hit_chance': "8.6%",
+    'critical_hit_chance': 8.6,
     'pokedex_entries': ["Red/Blue: So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.",
                         "Yellow: Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokemon."],
     'level_up_learnset': {
