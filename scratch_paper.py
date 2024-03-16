@@ -142,17 +142,15 @@ def create_pokemon(species, level, pid):
     caught_pokemon_dict[pid] = Pokemon (species, pid, pokemon_dict[species]['types'], pokemon_dict[species]['base_exp'], pokemon_dict[species]['base_stats']['HP'], pokemon_dict[species]['base_stats']['Attack'], pokemon_dict[species]['base_stats']['Defense'], pokemon_dict[species]['base_stats']['Speed'], pokemon_dict[species]['base_stats']['Special'], moves, level)
     return caught_pokemon_dict[pid]
 
-def main():
-    
+def pid_caught_pokemon_dict_initializer():
+
     global caught_pokemon_dict
     caught_pokemon_dict = {}
 
     # See the create_pokemon function for an explanation of pid.
     pid = 0
 
-    create_pokemon('Bulbasaur', 5, pid)
-    print(caught_pokemon_dict[pid].calculate_stats())
-    print(caught_pokemon_dict[pid])
+
 
 if __name__ == '__main__':
-    main()
+    pid_caught_pokemon_dict_initializer()

@@ -1,3 +1,6 @@
+from type_advantages import *
+from scratch_paper import *
+
 # Define a function to get stats of a chosen pokemon
 lvl = 5  # All Pokemon start at level 5
 hpmod = 10
@@ -21,53 +24,12 @@ def get_moves(pokemon):
         return [('Tackle', 50, 'Normal'), ('Water Gun', 40, 'Water'), ('Growl', 0, 'Normal')]
 
 def choose_pokemon(player, p1, p2, p3, p4, p5, p6):
-    pokemoptions = [p1, p2, p3, p4, p5, p6]
-    starter_choice = "missingno"
-    while starter_choice not in pokemoptions:
-        print(f"\n{player}, will you choose:")
-        for i in range(len(pokemoptions)):
-            if not pokemoptions[i + 1].isdigit():
-                print(f"{pokemoptions[i].capitalize()}")
-            else:
-                print(f"or {pokemoptions[i].capitalize()}?")
-                break
-        starter_choice = input().lower().strip()
-        if starter_choice not in pokemoptions:
-            print(f"I'm sorry, I'm not sure I heard you correctly. Please choose {p1.capitalize()}, {p2.capitalize()}, or {p3.capitalize()}.")
-
-    return get_stats(starter_choice)
-
-# Function to calculate type advantages
-def type_advantage(attacker_type, defender_type):
-    advantages = {
-        'Normal': {'double': [], 'half': ['Rock', 'Steel'], 'zero': ['Ghost']},
-        'Grass': {'double': ['Water', 'Ground', 'Rock'], 'half': ['Fire', 'Ice', 'Poison', 'Flying', 'Bug', 'Dragon', 'Steel'], 'zero': []},
-        'Fire': {'double': ['Grass', 'Ice', 'Bug', 'Steel'], 'half': ['Fire', 'Water', 'Rock', 'Dragon'], 'zero': []},
-        'Water': {'double': ['Fire', 'Ground', 'Rock'], 'half': ['Water', 'Grass', 'Dragon'], 'zero': []},
-        'Electric': {'double': ['Water', 'Flying'], 'half': ['Electric', 'Ground'], 'zero': []},
-        'Ice': {'double': ['Grass', 'Ground', 'Flying', 'Dragon'], 'half': ['Fire', 'Water', 'Ice', 'Steel'], 'zero': []},
-        'Fighting': {'double': ['Normal', 'Ice', 'Rock', 'Dark', 'Steel'], 'half': ['Poison', 'Flying', 'Psychic', 'Bug', 'Fairy'], 'zero': []},
-        'Poison': {'double': ['Grass', 'Fairy'], 'half': ['Poison', 'Ground', 'Rock', 'Ghost'], 'zero': []},
-        'Ground': {'double': ['Fire', 'Electric', 'Poison', 'Rock', 'Steel'], 'half': ['Grass', 'Ice', 'Water'], 'zero': ['Flying']},
-        'Flying': {'double': ['Grass', 'Fighting', 'Bug'], 'half': ['Electric', 'Rock', 'Steel'], 'zero': []},
-        'Psychic': {'double': ['Fighting', 'Poison'], 'half': ['Psychic', 'Steel'], 'zero': []},
-        'Bug': {'double': ['Grass', 'Psychic', 'Dark'], 'half': ['Fire', 'Fighting', 'Poison', 'Flying', 'Ghost', 'Steel', 'Fairy'], 'zero': []},
-        'Rock': {'double': ['Fire', 'Ice', 'Flying', 'Bug'], 'half': ['Fighting', 'Ground', 'Steel'], 'zero': []},
-        'Ghost': {'double': ['Psychic', 'Ghost'], 'half': ['Dark'], 'zero': ['Normal']},
-        'Dragon': {'double': ['Dragon'], 'half': [], 'zero': []},
-        'Dark': {'double': ['Psychic', 'Ghost'], 'half': ['Fighting', 'Dark', 'Fairy'], 'zero': []},
-        'Steel': {'double': ['Ice', 'Rock', 'Fairy'], 'half': ['Fire', 'Water', 'Electric', 'Steel'], 'zero': []},
-        'Fairy': {'double': ['Fighting', 'Dragon', 'Dark'], 'half': ['Fire', 'Poison', 'Steel'], 'zero': []}
-    }
-
-    if attacker_type in advantages and defender_type in advantages[attacker_type]['double']:
-        return 2  # Double damage
-    elif attacker_type in advantages and defender_type in advantages[attacker_type]['half']:
-        return 0.5  # Half damage
-    elif attacker_type in advantages and defender_type in advantages[attacker_type]['zero']:
-        return 0  # Zero damage
-    else:
-        return 1  # No advantage
+    print ("Professor Oak: I have three special, powerful Pokemon that would be perfect for the task. \
+           \nBecause the closer you get to your Pokemon, the stronger you both become, I am offering you\
+           \nonly one of these Pokemon. Pick whichever one you feel the strongest connection to.\
+           \n\nThe green one is Bulbasaur, a sturdy toad with a huge bulb on its back.\
+           \nAs Bulbasaur grows, his bulb will blossom into a giant flower. \
+           \nBulbasaur grows a little slower than the others, but he is currently the strongest by far.")
 
 def player_turn(player, opponent, moves):
     print(f"\n{player[0].capitalize()}, it's your turn!")
