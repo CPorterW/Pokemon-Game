@@ -9,8 +9,8 @@ wall = " X "
 '''
 The function, "coordinate_field" creates a grid like the one below, 
 and also prints the location and movement of characters within the 
-grid as the code runs. In future iterations, I intend to make the 
-walls impassable, add momentum and battle functionality.
+grid as the code runs. In future iterations, I intend to add momentum 
+and battle functionality.
 
  X  X  X  X  X  X  X  X  X  X  X  X 
  X  _  _  _  _  _  _  _  _  _  _  X 
@@ -25,7 +25,7 @@ walls impassable, add momentum and battle functionality.
  X  _  _  _  _  _  _  _  _  _  _  X 
  X  X  X  X  X  X  X  X  X  X  X  X 
 '''
-def coordinate_field (p1_location, p2_location, p1_direction, p2_direction):
+def battle_field (p1_location, p2_location, p1_direction, p2_direction):
     x_coordinate = 0
     y_coordinate = 1
     field = ""
@@ -115,7 +115,7 @@ def movement (p1_direction):
     # Finally, the list is joined, used as an argument in the 
     # coordinate_field function, and separated again.
     p1_direction = "".join(p1_direction)
-    coordinate_field (p1_location, [7,5], p1_direction, "^^<")
+    battle_field (p1_location, [7,5], p1_direction, "^^<")
     p1_direction = list(p1_direction)
     return p1_direction
 

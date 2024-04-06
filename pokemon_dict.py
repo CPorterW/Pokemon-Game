@@ -1,5 +1,7 @@
 pokemon_dict = {
        # ... nidoran-nidoking arbok-pidgey, paras-parasect dont have tm/hm or accurate moves
+       # Ditto doesn't exist yet for some reason.
+       # Most still have slightly tweaked height, weight, and crit values.
     "Bulbasaur": {
         'types': ["grass", "poison"],
         'category': "Seed",

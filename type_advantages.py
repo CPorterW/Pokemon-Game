@@ -1,5 +1,5 @@
 # Function to calculate type advantages
-def type_advantage(attacker_type, defender_type):
+def type_advantage(attack_type, defender_types):
     advantages = {
         'Normal': {'double': [], 'half': ['Rock', 'Steel'], 'zero': ['Ghost']},
         'Grass': {'double': ['Water', 'Ground', 'Rock'], 'half': ['Fire', 'Ice', 'Poison', 'Flying', 'Bug', 'Dragon', 'Steel'], 'zero': []},
@@ -20,12 +20,12 @@ def type_advantage(attacker_type, defender_type):
         'Steel': {'double': ['Ice', 'Rock', 'Fairy'], 'half': ['Fire', 'Water', 'Electric', 'Steel'], 'zero': []},
         'Fairy': {'double': ['Fighting', 'Dragon', 'Dark'], 'half': ['Fire', 'Poison', 'Steel'], 'zero': []}
     }
-
-    if attacker_type in advantages and defender_type in advantages[attacker_type]['double']:
-        return 2  # Double damage
-    elif attacker_type in advantages and defender_type in advantages[attacker_type]['half']:
-        return 0.5  # Half damage
-    elif attacker_type in advantages and defender_type in advantages[attacker_type]['zero']:
-        return 0  # Zero damage
-    else:
-        return 1  # No advantage
+    multiplier = 1
+    for type in defender_types:
+        if type in advantages[attack_type]['double']:
+            multiplier *= 2  # Double damage
+        elif type in advantages[attack_type]['half']:
+            multiplier *= 0.5  # Half damage
+        elif type in advantages[attack_type]['zero']:
+            multiplier *= 0  # Zero damage
+    return multiplier
