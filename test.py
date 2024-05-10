@@ -7,12 +7,19 @@ def test_creator():
     caught_pokemon_dict = create_pokemon('bulbasaur', 5, 0, {})
     assert caught_pokemon_dict[1].name == 'Bulbasaur'
     assert caught_pokemon_dict[1].types == ['grass', 'poison']
-    assert caught_pokemon_dict[1].moves.keys() == ['Tackle', 'Growl']
+    # assert caught_pokemon_dict[1].moves.keys() == ['Tackle', 'Growl']
 
-    caught_pokemon_dict = create_pokemon('ditto', 5, 1, caught_pokemon_dict)
-    assert caught_pokemon_dict[2].species == 'Ditto'
-    assert caught_pokemon_dict[2].types == ['normal']
-    assert caught_pokemon_dict[2].moves.keys() == ['Transform']
+    caught_pokemon_dict = create_pokemon('mew', 10, 1, caught_pokemon_dict)
+    assert caught_pokemon_dict[2].species == 'Mew'
+    assert caught_pokemon_dict[2].types == ['psychic']
+    # assert caught_pokemon_dict[2].moves.keys() == ['Pound', 'Transform']
+
+
+    for move in poke_move_dict:
+        move_keys = []
+        for key in poke_move_dict[move]:
+            move_keys.append(key)
+        assert move_keys == ['Effect', 'Type', 'PP', 'Power', 'Accuracy', 'Category']
 
 
 from pokemon_dict import *

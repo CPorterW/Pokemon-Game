@@ -25,14 +25,12 @@ def player_turn(player, opponent, moves):
     turndamage = floor((floor(player.level * 2 /5) + 2) * moves[move_name]['Power'] * attack_stat / defense_stat / 50)
     if turndamage > 997:
         turndamage = 997
-    turndamage += 2 
+    turndamage += 2
     if move_type in player.types:
         turndamage += floor(turndamage / 2)
-    
     advantage_multiplier = type_advantage(move_type, opponent.types)
     turndamage *= advantage_multiplier*10
     turndamage = floor(turndamage/10)
-
     if turndamage not in [0, 1]:
         turndamage = floor(turndamage * random.randrange(217, 255) / 255) 
         if turndamage > opponent.current_health:
