@@ -151,7 +151,7 @@ poke_move_dict = {
         "Accuracy": "100%",
         "Category": "Special"
     },
-    "Bubblebeam": {
+    "BubbleBeam": {
         "Effect": "Has a ~10% chance to lower the target's Speed by 1 stage.",
         "Type": "Water",
         "PP": 20,
@@ -287,7 +287,7 @@ poke_move_dict = {
         "Accuracy": "100%",
         "Category": "Physical"
     },
-    "Doubleslap": {
+    "DoubleSlap": {
         "Effect": "Attacks 2-5 times in one turn; if one of these attacks breaks a target's Substitute, the target will take damage for the rest of the hits. This move has a 3/8 chance to hit twice, a 3/8 chance to hit three times, a 1/8 chance to hit four times and a 1/8 chance to hit five times.",
         "Type": "Normal",
         "PP": 10,
@@ -783,7 +783,7 @@ poke_move_dict = {
         "Accuracy": "100%",
         "Category": "Physical"
     },
-    "Poisonpowder": {
+    "PoisonPowder": {
         "Effect": "Poisons the target.",
         "Type": "Poison",
         "PP": 35,
@@ -919,6 +919,14 @@ poke_move_dict = {
         "Accuracy": "100%",
         "Category": "Status"
     },
+        "Sand Attack": {
+        "Effect": "Lowers the target's Accuracy by 1 stage.",
+        "Type": "Ground",
+        "PP": 15,
+        "Power": "N/A",
+        "Accuracy": "100%",
+        "Category": "Status"
+    },
     "Scratch": {
         "Effect": "Damages the target.",
         "Type": "Normal",
@@ -1040,6 +1048,14 @@ poke_move_dict = {
         "Category": "Status"
     },
     "Solar Beam": {
+        "Effect": "On the first turn, the user charges up and cannot make a move. On the second turn, the user attacks.",
+        "Type": "Grass",
+        "PP": 10,
+        "Power": 120,
+        "Accuracy": "100%",
+        "Category": "Special"
+    },
+    "SolarBeam": {
         "Effect": "On the first turn, the user charges up and cannot make a move. On the second turn, the user attacks.",
         "Type": "Grass",
         "PP": 10,
@@ -1239,7 +1255,7 @@ poke_move_dict = {
         "Accuracy": "100%",
         "Category": "Special"
     },
-    "Thunderpunch": {
+    "ThunderPunch": {
         "Effect": "Has a ~10% chance to paralyze the target.",
         "Type": "Electric",
         "PP": 15,
@@ -1247,7 +1263,7 @@ poke_move_dict = {
         "Accuracy": "100%",
         "Category": "Physical"
     },
-    "Thundershock": {
+    "ThunderShock": {
         "Effect": "Has a ~10% chance to paralyze the target.",
         "Type": "Electric",
         "PP": 30,
@@ -1288,6 +1304,14 @@ poke_move_dict = {
         "Category": "Physical"
     },
     "Vice Grip": {
+        "Effect": "Damages the target.",
+        "Type": "Normal",
+        "PP": 30,
+        "Power": 55,
+        "Accuracy": "100%",
+        "Category": "Physical"
+    },
+        "ViceGrip": {
         "Effect": "Damages the target.",
         "Type": "Normal",
         "PP": 30,
